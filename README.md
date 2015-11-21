@@ -2,6 +2,8 @@
 
 > A simple whois client
 
+![](https://api.travis-ci.org/adamdecaf/go-whois.svg)
+
 ## Usage
 
 ```go
