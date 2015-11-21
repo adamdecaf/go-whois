@@ -1,0 +1,18 @@
+{
+	"domain": "miami",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"city",
+		"generic",
+		"geo"
+	],
+	"locations": [
+		"Miami"
+	],
+	"whoisServer": "whois-dub.mm-registry.com",
+	"nameServers": [
+		"a.ns.nic.miami",
+		"b.ns.nic.miami"
+	],
+	"codePoints": "--09az"
+}

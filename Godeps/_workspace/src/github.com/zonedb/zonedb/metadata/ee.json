@@ -1,0 +1,16 @@
+{
+	"domain": "ee",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"whoisServer": "whois.tld.ee",
+	"nameServers": [
+		"ee.aso.ee",
+		"ee.eenet.ee",
+		"b.tld.ee",
+		"e.tld.ee",
+		"ns.tld.ee"
+	],
+	"codePoints": "--09az"
+}

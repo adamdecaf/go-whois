@@ -1,0 +1,16 @@
+{
+	"domain": "starhub",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand",
+		"generic"
+	],
+	"whoisServer": "whois.nic.starhub",
+	"nameServers": [
+		"a.nic.starhub",
+		"b.nic.starhub",
+		"c.nic.starhub",
+		"d.nic.starhub"
+	],
+	"codePoints": "--09az"
+}

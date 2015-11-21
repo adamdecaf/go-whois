@@ -1,0 +1,15 @@
+{
+	"domain": "nr",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"whoisURL": "http://www.cenpac.net.nr/dns/whois.html",
+	"nameServers": [
+		"sns-pb.isc.org",
+		"ns1.net.reach.com",
+		"dns1.cenpac.net.nr",
+		"nrweb.cenpac.net.nr"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,21 @@
+{
+	"domain": "istanbul",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"city",
+		"generic",
+		"geo"
+	],
+	"locations": [
+		"Istanbul",
+		"TR-34"
+	],
+	"whoisServer": "whois.afilias-srs.net",
+	"nameServers": [
+		"a0.nic.istanbul",
+		"a2.nic.istanbul",
+		"b0.nic.istanbul",
+		"c0.nic.istanbul"
+	],
+	"codePoints": "--09az"
+}

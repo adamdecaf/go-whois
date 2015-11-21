@@ -1,0 +1,14 @@
+{
+	"domain": "rich",
+	"tags": [
+		"generic"
+	],
+	"whoisServer": "whois.afilias-srs.net",
+	"nameServers": [
+		"a0.nic.rich",
+		"a2.nic.rich",
+		"b0.nic.rich",
+		"c0.nic.rich"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,16 @@
+{
+	"domain": "iinet",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand",
+		"generic"
+	],
+	"whoisServer": "whois.aridnrs.net.au",
+	"nameServers": [
+		"a.nic.iinet",
+		"b.nic.iinet",
+		"c.nic.iinet",
+		"d.nic.iinet"
+	],
+	"codePoints": "--09az"
+}

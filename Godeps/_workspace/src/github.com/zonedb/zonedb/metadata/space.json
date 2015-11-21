@@ -1,0 +1,15 @@
+{
+	"domain": "space",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
+	"whoisServer": "whois.nic.space",
+	"nameServers": [
+		"a.nic.space",
+		"b.nic.space",
+		"c.nic.space",
+		"d.nic.space"
+	],
+	"codePoints": "--09az"
+}

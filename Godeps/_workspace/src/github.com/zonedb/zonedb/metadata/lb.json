@@ -1,0 +1,16 @@
+{
+	"domain": "lb",
+	"tags": [
+		"closed",
+		"country",
+		"geo"
+	],
+	"whoisURL": "http://www.aub.edu.lb/lbdr/",
+	"nameServers": [
+		"ns1.dns.aq",
+		"rip.psg.com",
+		"zeina.aub.edu.lb",
+		"fork.sth.dnsnode.net"
+	],
+	"codePoints": "--09az"
+}

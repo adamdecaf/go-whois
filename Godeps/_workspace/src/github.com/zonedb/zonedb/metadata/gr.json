@@ -1,0 +1,17 @@
+{
+	"domain": "gr",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"whoisURL": "https://grweb.ics.forth.gr/Whois?lang=en",
+	"nameServers": [
+		"grdns-de.denic.de",
+		"estia.ics.forth.gr",
+		"gr-at.ics.forth.gr",
+		"gr-br.ics.forth.gr",
+		"gr-ix.ics.forth.gr",
+		"gr-m.ics.forth.gr",
+		"grdns.ics.forth.gr"
+	]
+}

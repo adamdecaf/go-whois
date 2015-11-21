@@ -1,0 +1,18 @@
+{
+	"domain": "ac",
+	"infoURL": "http://nic.ac",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"whoisServer": "whois.nic.ac",
+	"nameServers": [
+		"a.nic.ac",
+		"b.nic.ac",
+		"b.nic.io",
+		"ns1.communitydns.net",
+		"a.ns13.net",
+		"b.ns13.net",
+		"ns3.icb.co.uk"
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"domain": "vista",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand",
+		"generic"
+	],
+	"whoisServer": "whois.nic.vista",
+	"nameServers": [
+		"a.nic.vista",
+		"b.nic.vista",
+		"c.nic.vista",
+		"d.nic.vista"
+	],
+	"codePoints": "--09az"
+}

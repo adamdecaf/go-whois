@@ -1,0 +1,18 @@
+{
+	"domain": "wien",
+	"tags": [
+		"city",
+		"generic",
+		"geo"
+	],
+	"locations": [
+		"Vienna",
+		"AT-9"
+	],
+	"whoisServer": "whois.nic.wien",
+	"nameServers": [
+		"a.dns.nic.wien",
+		"m.dns.nic.wien",
+		"n.dns.nic.wien"
+	]
+}

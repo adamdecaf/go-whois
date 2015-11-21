@@ -1,0 +1,15 @@
+{
+	"domain": "срб",
+	"tags": [
+		"generic"
+	],
+	"whoisServer": "whois.rnids.rs",
+	"nameServers": [
+		"a.nic.rs",
+		"f.nic.rs",
+		"g.nic.rs",
+		"h.nic.rs",
+		"k.nic.rs",
+		"l.nic.rs"
+	]
+}

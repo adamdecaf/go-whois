@@ -1,0 +1,15 @@
+{
+	"domain": "ec",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"whoisServer": "whois.nic.ec",
+	"nameServers": [
+		"n3.dns.ec",
+		"n1.nic.ec",
+		"n2.nic.ec",
+		"sns-pb.isc.org"
+	],
+	"codePoints": "--09az"
+}

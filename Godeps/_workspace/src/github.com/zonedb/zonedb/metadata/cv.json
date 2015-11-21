@@ -1,0 +1,17 @@
+{
+	"domain": "cv",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"whoisURL": "http://www.dns.cv/",
+	"nameServers": [
+		"ns.dns.cv",
+		"ns-ext.isc.org",
+		"sns-pb.isc.org",
+		"ns01.fccn.pt",
+		"phobos.fccn.pt",
+		"auth02.ns.uu.net"
+	],
+	"codePoints": "--09az"
+}

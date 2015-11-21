@@ -1,0 +1,15 @@
+{
+	"domain": "ارامكو",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
+	"nameServers": [
+		"ns1.dns.nic.ارامكو",
+		"ns2.dns.nic.ارامكو",
+		"ns3.dns.nic.ارامكو",
+		"ns4.dns.nic.ارامكو",
+		"ns5.dns.nic.ارامكو",
+		"ns6.dns.nic.ارامكو"
+	]
+}

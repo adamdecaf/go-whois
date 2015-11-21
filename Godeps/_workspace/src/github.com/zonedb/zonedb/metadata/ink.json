@@ -1,0 +1,13 @@
+{
+	"domain": "ink",
+	"tags": [
+		"generic"
+	],
+	"whoisServer": "whois.nic.ink",
+	"nameServers": [
+		"a.nic.ink",
+		"b.nic.ink",
+		"c.nic.ink",
+		"d.nic.ink"
+	]
+}

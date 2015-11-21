@@ -1,0 +1,17 @@
+{
+	"domain": "ad",
+	"infoURL": "http://www.nic.ad/",
+	"tags": [
+		"country",
+		"generic",
+		"geo"
+	],
+	"nameServers": [
+		"dnsc.ad",
+		"dnsm.ad",
+		"ns3.nic.fr",
+		"ns-ext.isc.org",
+		"ad.ns.nic.es",
+		"ad.cctld.authdns.ripe.net"
+	]
+}

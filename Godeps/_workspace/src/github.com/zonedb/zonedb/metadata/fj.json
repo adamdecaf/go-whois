@@ -1,0 +1,18 @@
+{
+	"domain": "fj",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"whoisServer": "whois.usp.ac.fj",
+	"whoisURL": "http://domains.fj",
+	"nameServers": [
+		"rip.psg.com",
+		"adns1.berkeley.edu",
+		"adns2.berkeley.edu",
+		"manu.usp.ac.fj",
+		"teri.usp.ac.fj",
+		"auth00.ns.uu.net"
+	],
+	"codePoints": "--09az"
+}

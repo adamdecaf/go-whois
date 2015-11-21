@@ -1,0 +1,13 @@
+{
+	"domain": "امارات",
+	"tags": [
+		"generic"
+	],
+	"whoisServer": "whois.aeda.net.ae",
+	"nameServers": [
+		"ns1.aedns.ae",
+		"ns2.aedns.ae",
+		"nsext-pch.aedns.ae",
+		"sns-pb.isc.org"
+	]
+}

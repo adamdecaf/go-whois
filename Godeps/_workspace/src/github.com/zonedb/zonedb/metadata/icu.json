@@ -1,0 +1,16 @@
+{
+	"domain": "icu",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand",
+		"generic"
+	],
+	"whoisServer": "whois.nic.icu",
+	"nameServers": [
+		"a.nic.icu",
+		"b.nic.icu",
+		"c.nic.icu",
+		"d.nic.icu"
+	],
+	"codePoints": "--09az"
+}

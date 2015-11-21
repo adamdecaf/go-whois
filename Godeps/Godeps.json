@@ -1,0 +1,10 @@
+{
+	"ImportPath": "github.com/adamdecaf/go-whois",
+	"GoVersion": "go1.5.1",
+	"Deps": [
+		{
+			"ImportPath": "github.com/zonedb/zonedb",
+			"Rev": "552fce9edd595ccfc8316fa0a8392cd6dcce8c54"
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"domain": "yoga",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
+	"whoisServer": "whois-dub.mm-registry.com",
+	"nameServers": [
+		"a.ns.nic.yoga",
+		"b.ns.nic.yoga"
+	],
+	"codePoints": "--09az"
+}

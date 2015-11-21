@@ -1,0 +1,11 @@
+{
+	"domain": "公司",
+	"whoisServer": "whois.ngtld.cn",
+	"nameServers": [
+		"a.ngtld.cn",
+		"b.ngtld.cn",
+		"c.ngtld.cn",
+		"d.ngtld.cn",
+		"e.ngtld.cn"
+	]
+}

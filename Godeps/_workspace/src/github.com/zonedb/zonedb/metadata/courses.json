@@ -1,0 +1,15 @@
+{
+	"domain": "courses",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
+	"whoisServer": "whois.aridnrs.net.au",
+	"nameServers": [
+		"a.nic.courses",
+		"b.nic.courses",
+		"c.nic.courses",
+		"d.nic.courses"
+	],
+	"codePoints": "--09az"
+}

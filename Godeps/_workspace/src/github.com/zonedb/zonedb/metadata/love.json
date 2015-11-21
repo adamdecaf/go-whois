@@ -1,0 +1,15 @@
+{
+	"domain": "love",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
+	"whoisServer": "whois.nic.love",
+	"nameServers": [
+		"a.nic.love",
+		"b.nic.love",
+		"c.nic.love",
+		"d.nic.love"
+	],
+	"codePoints": "--09az"
+}

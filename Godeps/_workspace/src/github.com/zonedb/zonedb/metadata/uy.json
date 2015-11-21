@@ -1,0 +1,21 @@
+{
+	"domain": "uy",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"whoisServer": "whois.nic.org.uy",
+	"nameServers": [
+		"ns.dns.br",
+		"ns3.nic.mx",
+		"sns-pb.isc.org",
+		"seciu.edu.uy",
+		"a.nic.uy",
+		"b.nic.uy",
+		"ultra.seciu.uy",
+		"ns1.anteldata.com.uy",
+		"ns2.anteldata.com.uy",
+		"uy.cctld.authdns.ripe.net"
+	],
+	"codePoints": "--09az"
+}

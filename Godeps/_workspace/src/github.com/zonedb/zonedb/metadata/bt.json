@@ -1,0 +1,18 @@
+{
+	"domain": "bt",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"whoisURL": "http://www.nic.bt/",
+	"nameServers": [
+		"ns1.druknet.bt",
+		"ns2.druknet.bt",
+		"ns3.druknet.bt",
+		"ns.itu.ch",
+		"auth00.ns.uu.net",
+		"auth61.ns.uu.net",
+		"bt.cctld.authdns.ripe.net"
+	],
+	"codePoints": "--09az"
+}

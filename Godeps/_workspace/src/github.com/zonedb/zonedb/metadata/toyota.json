@@ -1,0 +1,16 @@
+{
+	"domain": "toyota",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand",
+		"generic"
+	],
+	"whoisServer": "whois.nic.toyota",
+	"nameServers": [
+		"a.nic.toyota",
+		"b.nic.toyota",
+		"c.nic.toyota",
+		"d.nic.toyota"
+	],
+	"codePoints": "--09az"
+}

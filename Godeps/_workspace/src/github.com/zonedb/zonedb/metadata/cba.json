@@ -1,0 +1,16 @@
+{
+	"domain": "cba",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand",
+		"generic"
+	],
+	"whoisServer": "whois.nic.cba",
+	"nameServers": [
+		"a.nic.cba",
+		"b.nic.cba",
+		"c.nic.cba",
+		"d.nic.cba"
+	],
+	"codePoints": "--09az"
+}

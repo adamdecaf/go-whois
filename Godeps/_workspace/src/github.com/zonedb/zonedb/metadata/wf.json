@@ -1,0 +1,15 @@
+{
+	"domain": "wf",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"whoisServer": "whois.nic.wf",
+	"nameServers": [
+		"d.nic.fr",
+		"d.ext.nic.fr",
+		"e.ext.nic.fr",
+		"f.ext.nic.fr",
+		"g.ext.nic.fr"
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"domain": "website",
+	"tags": [
+		"generic"
+	],
+	"whoisServer": "whois.nic.website",
+	"nameServers": [
+		"a.nic.website",
+		"b.nic.website",
+		"c.nic.website",
+		"d.nic.website"
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"domain": "佛山",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"city",
+		"generic",
+		"geo"
+	],
+	"locations": [
+		"Foshan"
+	],
+	"whoisServer": "whois.ngtld.cn",
+	"nameServers": [
+		"ta.ngtld.cn",
+		"tb.ngtld.cn",
+		"tc.ngtld.cn",
+		"td.ngtld.cn",
+		"te.ngtld.cn"
+	]
+}

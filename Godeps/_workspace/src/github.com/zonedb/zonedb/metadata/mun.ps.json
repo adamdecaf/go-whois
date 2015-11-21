@@ -1,0 +1,9 @@
+{
+	"domain": "mun.ps",
+	"nameServers": [
+		"dns1.gov.ps",
+		"dns2.gov.ps",
+		"ns2.pnina.ps"
+	],
+	"codePoints": "--09az"
+}

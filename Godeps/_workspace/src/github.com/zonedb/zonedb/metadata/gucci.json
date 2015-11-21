@@ -1,0 +1,17 @@
+{
+	"domain": "gucci",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand",
+		"generic"
+	],
+	"nameServers": [
+		"ns1.dns.nic.gucci",
+		"ns2.dns.nic.gucci",
+		"ns3.dns.nic.gucci",
+		"ns4.dns.nic.gucci",
+		"ns5.dns.nic.gucci",
+		"ns6.dns.nic.gucci"
+	],
+	"codePoints": "--09az"
+}

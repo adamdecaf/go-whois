@@ -1,0 +1,13 @@
+{
+	"domain": "bf",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"nameServers": [
+		"nahouri.onatel.bf",
+		"ns1.ird.fr",
+		"ns1.as6453.net",
+		"ns2.as6453.net"
+	]
+}

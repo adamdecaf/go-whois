@@ -1,0 +1,17 @@
+{
+	"domain": "cisco",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand",
+		"generic"
+	],
+	"nameServers": [
+		"ns1.dns.nic.cisco",
+		"ns2.dns.nic.cisco",
+		"ns3.dns.nic.cisco",
+		"ns4.dns.nic.cisco",
+		"ns5.dns.nic.cisco",
+		"ns6.dns.nic.cisco"
+	],
+	"codePoints": "--09az"
+}

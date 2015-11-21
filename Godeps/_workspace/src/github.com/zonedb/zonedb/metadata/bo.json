@@ -1,0 +1,14 @@
+{
+	"domain": "bo",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"whoisServer": "whois.nic.bo",
+	"nameServers": [
+		"utama.bolnet.bo",
+		"ns.dns.br",
+		"anycast.ns.nic.bo"
+	],
+	"codePoints": "--09az"
+}

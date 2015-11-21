@@ -1,0 +1,15 @@
+{
+	"domain": "physio",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
+	"whoisServer": "whois.nic.physio",
+	"nameServers": [
+		"a.nic.physio",
+		"b.nic.physio",
+		"c.nic.physio",
+		"d.nic.physio"
+	],
+	"codePoints": "--09az"
+}

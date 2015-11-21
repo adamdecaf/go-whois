@@ -1,0 +1,16 @@
+{
+	"domain": "stcgroup",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand",
+		"generic"
+	],
+	"whoisServer": "whois.centralnic.com",
+	"nameServers": [
+		"a.nic.stcgroup",
+		"b.nic.stcgroup",
+		"c.nic.stcgroup",
+		"d.nic.stcgroup"
+	],
+	"codePoints": "--09az"
+}

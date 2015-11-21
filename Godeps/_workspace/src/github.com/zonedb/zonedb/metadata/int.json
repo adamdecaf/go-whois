@@ -1,0 +1,16 @@
+{
+	"domain": "int",
+	"tags": [
+		"generic",
+		"sponsored"
+	],
+	"whoisServer": "whois.iana.org",
+	"nameServers": [
+		"ns0.ja.net",
+		"ns.uu.net",
+		"ns.icann.org",
+		"sec2.authdns.ripe.net",
+		"ns1.cs.ucl.ac.uk"
+	],
+	"codePoints": "--09az"
+}

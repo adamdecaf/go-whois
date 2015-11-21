@@ -1,0 +1,14 @@
+{
+	"domain": "kn",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"whoisURL": "http://www.nic.kn/",
+	"nameServers": [
+		"a.dns.tw",
+		"b.dns.tw",
+		"c.dns.tw"
+	],
+	"codePoints": "--09az"
+}

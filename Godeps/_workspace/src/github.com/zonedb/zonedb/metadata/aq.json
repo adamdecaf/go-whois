@@ -1,0 +1,15 @@
+{
+	"domain": "aq",
+	"infoURL": "http://www.gobin.info/domainname/aq.txt",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"nameServers": [
+		"ns1.dns.aq",
+		"sns-pb.isc.org",
+		"fork.sth.dnsnode.net",
+		"ns99.dns.net.nz"
+	],
+	"codePoints": "--09az"
+}

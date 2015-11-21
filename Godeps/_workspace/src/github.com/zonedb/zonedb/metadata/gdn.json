@@ -1,0 +1,14 @@
+{
+	"domain": "gdn",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand",
+		"generic"
+	],
+	"whoisServer": "whois.nic.gdn",
+	"nameServers": [
+		"ns1.nic.gdn",
+		"ns2.nic.gdn"
+	],
+	"codePoints": "--09az"
+}

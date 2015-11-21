@@ -1,0 +1,19 @@
+{
+	"domain": "bm",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"whoisURL": "http://www.bermudanic.bm/cgi-bin/lansaweb?procfun+BMWHO+BMWHO2+WHO",
+	"nameServers": [
+		"ns1.bm",
+		"ns2.bm",
+		"ns3.bm",
+		"ns1.ibl.bm",
+		"ns2.ibl.bm",
+		"ns.uu.net",
+		"sunic.sunet.se",
+		"auth02.ns.uu.net"
+	],
+	"codePoints": "--09az"
+}

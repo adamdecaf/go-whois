@@ -1,0 +1,17 @@
+{
+	"domain": "to",
+	"infoURL": "http://www.tonic.to/",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"whoisServer": "whois.tonic.to",
+	"nameServers": [
+		"colo.to",
+		"tonic.to",
+		"ns1.iafrica.com",
+		"auth02.ns.uu.net",
+		"to.cctld.authdns.ripe.net"
+	],
+	"codePoints": "--09az"
+}

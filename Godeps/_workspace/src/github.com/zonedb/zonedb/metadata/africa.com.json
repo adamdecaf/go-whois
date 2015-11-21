@@ -1,0 +1,12 @@
+{
+	"domain": "africa.com",
+	"nameServers": [
+		"ns1.africa.com",
+		"ns2.africa.com",
+		"ns3.africa.com",
+		"ns4.africa.com",
+		"ns.coza.net.za",
+		"ns1.coza.net.za"
+	],
+	"codePoints": "--09az"
+}

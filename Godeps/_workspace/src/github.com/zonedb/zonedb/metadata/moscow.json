@@ -1,0 +1,25 @@
+{
+	"domain": "moscow",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"city",
+		"generic",
+		"geo"
+	],
+	"locations": [
+		"Moscow",
+		"RU-MOW"
+	],
+	"whoisServer": "whois.nic.moscow",
+	"nameServers": [
+		"b.dns.flexireg.net",
+		"a.dns.ripn.net",
+		"b.dns.ripn.net",
+		"d.dns.ripn.net",
+		"e.dns.ripn.net",
+		"f.dns.ripn.net",
+		"c.dns.flexireg.org",
+		"a.dns.flexireg.ru"
+	],
+	"codePoints": "--09az"
+}

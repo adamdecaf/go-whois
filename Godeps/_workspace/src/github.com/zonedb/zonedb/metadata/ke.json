@@ -1,0 +1,17 @@
+{
+	"domain": "ke",
+	"infoURL": "http://www.kenic.or.ke/",
+	"tags": [
+		"closed",
+		"country",
+		"geo"
+	],
+	"whoisServer": "whois.kenic.or.ke",
+	"nameServers": [
+		"ns-ke.afrinic.net",
+		"mzizi.kenic.or.ke",
+		"ns1.coza.net.za",
+		"ns.anycast.kenic.or.ke"
+	],
+	"codePoints": "--09az"
+}

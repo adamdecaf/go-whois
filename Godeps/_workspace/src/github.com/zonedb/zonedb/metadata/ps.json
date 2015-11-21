@@ -1,0 +1,17 @@
+{
+	"domain": "ps",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"whoisServer": "whois.pnina.ps",
+	"nameServers": [
+		"rip.psg.com",
+		"dns1.gov.ps",
+		"ns1.pnina.ps",
+		"fork.sth.dnsnode.net",
+		"ps-ns.anycast.pch.net",
+		"ps.cctld.authdns.ripe.net"
+	],
+	"codePoints": "--09az"
+}

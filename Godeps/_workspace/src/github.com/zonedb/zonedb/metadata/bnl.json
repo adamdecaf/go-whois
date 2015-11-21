@@ -1,0 +1,16 @@
+{
+	"domain": "bnl",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand",
+		"generic"
+	],
+	"whoisServer": "whois.afilias-srs.net",
+	"nameServers": [
+		"a0.nic.bnl",
+		"a2.nic.bnl",
+		"b0.nic.bnl",
+		"c0.nic.bnl"
+	],
+	"codePoints": "--09az"
+}

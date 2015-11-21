@@ -1,0 +1,15 @@
+{
+	"domain": "theatre",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
+	"whoisServer": "whois.nic.theatre",
+	"nameServers": [
+		"a.nic.theatre",
+		"b.nic.theatre",
+		"c.nic.theatre",
+		"d.nic.theatre"
+	],
+	"codePoints": "--09az"
+}

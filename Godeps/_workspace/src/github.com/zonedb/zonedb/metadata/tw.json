@@ -1,0 +1,21 @@
+{
+	"domain": "tw",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"whoisServer": "whois.twnic.net.tw",
+	"nameServers": [
+		"sec4.apnic.net",
+		"ns.twnic.net",
+		"a.dns.tw",
+		"b.dns.tw",
+		"c.dns.tw",
+		"d.dns.tw",
+		"e.dns.tw",
+		"f.dns.tw",
+		"g.dns.tw",
+		"h.dns.tw",
+		"i.dns.tw"
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"domain": "nec",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand",
+		"generic"
+	],
+	"whoisServer": "whois.nic.nec",
+	"nameServers": [
+		"a.nic.nec",
+		"b.nic.nec",
+		"c.nic.nec",
+		"d.nic.nec"
+	],
+	"codePoints": "--09az"
+}

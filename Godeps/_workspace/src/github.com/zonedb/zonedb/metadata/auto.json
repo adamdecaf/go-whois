@@ -1,0 +1,18 @@
+{
+	"domain": "auto",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
+	"whoisServer": "whois.uniregistry.net",
+	"nameServers": [
+		"tld.isc-sns.com",
+		"tld.isc-sns.info",
+		"tld.isc-sns.net",
+		"ns1.uniregistry.net",
+		"a.auto.dyntld.net",
+		"b.auto.dyntld.net",
+		"c.auto.dyntld.net",
+		"a.ns.uniregistry.net"
+	]
+}

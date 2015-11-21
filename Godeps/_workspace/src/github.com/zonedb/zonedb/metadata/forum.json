@@ -1,0 +1,15 @@
+{
+	"domain": "forum",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
+	"whoisServer": "whois.nic.forum",
+	"nameServers": [
+		"a.nic.forum",
+		"b.nic.forum",
+		"c.nic.forum",
+		"d.nic.forum"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,14 @@
+{
+	"domain": "sj",
+	"tags": [
+		"closed",
+		"country",
+		"geo"
+	],
+	"nameServers": [
+		"nac.no",
+		"server.nordu.net",
+		"nn.uninett.no"
+	],
+	"codePoints": "--09az"
+}

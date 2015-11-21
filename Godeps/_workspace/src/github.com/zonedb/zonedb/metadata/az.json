@@ -1,0 +1,15 @@
+{
+	"domain": "az",
+	"infoURL": "http://www.nic.az/",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"whoisURL": "http://www.nic.az/",
+	"nameServers": [
+		"rip.psg.com",
+		"ns.demos.su",
+		"az.hostmaster.ua"
+	],
+	"codePoints": "--09az"
+}

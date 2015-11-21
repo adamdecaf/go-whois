@@ -1,0 +1,26 @@
+{
+	"domain": "bentley",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand",
+		"generic"
+	],
+	"whoisServer": "whois.nic.bentley",
+	"nameServers": [
+		"dns1.nic.bentley",
+		"dns2.nic.bentley",
+		"dns3.nic.bentley",
+		"dns4.nic.bentley",
+		"dnsa.nic.bentley",
+		"dnsb.nic.bentley",
+		"dnsc.nic.bentley",
+		"dnsd.nic.bentley",
+		"ns1.nic.uk",
+		"ns2.nic.uk",
+		"ns4.nic.uk",
+		"ns5.nic.uk",
+		"ns6.nic.uk",
+		"ns7.nic.uk"
+	],
+	"codePoints": "--09az"
+}

@@ -1,0 +1,23 @@
+{
+	"domain": "mg",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"whoisServer": "whois.nic.mg",
+	"nameServers": [
+		"ns-mg.malagasy.com",
+		"censvrns0001.ird.fr",
+		"ns1.ird.fr",
+		"ns.dts.mg",
+		"ns.nic.mg",
+		"mg1.dyntld.net",
+		"mg2.dyntld.net",
+		"mg3.dyntld.net",
+		"mg4.dyntld.net",
+		"a.mg.dyntld.net",
+		"b.mg.dyntld.net",
+		"mg.cctld.authdns.ripe.net"
+	],
+	"codePoints": "--09az"
+}

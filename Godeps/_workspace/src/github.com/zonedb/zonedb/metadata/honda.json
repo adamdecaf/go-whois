@@ -1,0 +1,16 @@
+{
+	"domain": "honda",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand",
+		"generic"
+	],
+	"whoisServer": "whois.nic.honda",
+	"nameServers": [
+		"a.nic.honda",
+		"b.nic.honda",
+		"c.nic.honda",
+		"d.nic.honda"
+	],
+	"codePoints": "--09az"
+}

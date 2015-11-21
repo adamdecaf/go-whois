@@ -1,0 +1,20 @@
+{
+	"domain": "gh",
+	"tags": [
+		"closed",
+		"country",
+		"geo"
+	],
+	"whoisURL": "http://www.nic.gh/customer/search_c.htm",
+	"nameServers": [
+		"ns1.dns.aq",
+		"austin.gh.com",
+		"mantse.gh.com",
+		"rip.psg.com",
+		"ns1.nic.gh",
+		"ns2.nic.gh",
+		"fork.sth.dnsnode.net",
+		"hippo.ru.ac.za"
+	],
+	"codePoints": "--09az"
+}

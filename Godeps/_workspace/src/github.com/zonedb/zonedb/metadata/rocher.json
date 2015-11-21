@@ -1,0 +1,17 @@
+{
+	"domain": "rocher",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand",
+		"generic"
+	],
+	"nameServers": [
+		"ns1.dns.nic.rocher",
+		"ns2.dns.nic.rocher",
+		"ns3.dns.nic.rocher",
+		"ns4.dns.nic.rocher",
+		"ns5.dns.nic.rocher",
+		"ns6.dns.nic.rocher"
+	],
+	"codePoints": "--09az"
+}

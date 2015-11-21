@@ -1,0 +1,14 @@
+{
+	"domain": "mom",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
+	"whoisServer": "whois.uniregistry.net",
+	"nameServers": [
+		"ns1.uniregistry.net",
+		"a.mom.dyntld.net",
+		"b.mom.dyntld.net",
+		"c.mom.dyntld.net"
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"domain": "net.cd",
+	"nameServers": [
+		"igubu.saix.net",
+		"sabela.saix.net",
+		"ns1.webnetafrica.net",
+		"ns2.webnetafrica.net"
+	],
+	"codePoints": "--09az"
+}

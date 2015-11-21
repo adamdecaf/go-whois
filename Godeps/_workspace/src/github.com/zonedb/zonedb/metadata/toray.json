@@ -1,0 +1,16 @@
+{
+	"domain": "toray",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand",
+		"generic"
+	],
+	"whoisServer": "whois.nic.toray",
+	"nameServers": [
+		"a.nic.toray",
+		"b.nic.toray",
+		"c.nic.toray",
+		"d.nic.toray"
+	],
+	"codePoints": "--09az"
+}

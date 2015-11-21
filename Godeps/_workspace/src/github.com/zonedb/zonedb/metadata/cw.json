@@ -1,0 +1,18 @@
+{
+	"domain": "cw",
+	"infoURL": "http://en.wikipedia.org/wiki/.cw",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"nameServers": [
+		"kadushi.curinfo.cw",
+		"ns01-server.curinfo.cw",
+		"engine0.una.cw",
+		"engine2.una.cw",
+		"ns1.uoc.cw",
+		"ns0.ja.net",
+		"cw.cctld.authdns.ripe.net"
+	],
+	"codePoints": "--09az"
+}

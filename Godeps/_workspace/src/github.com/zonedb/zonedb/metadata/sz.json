@@ -1,0 +1,13 @@
+{
+	"domain": "sz",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"nameServers": [
+		"rip.psg.com",
+		"ns1.sispa.org.sz",
+		"sz.cctld.authdns.ripe.net"
+	],
+	"codePoints": "--09az"
+}

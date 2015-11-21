@@ -1,0 +1,18 @@
+{
+	"domain": "io",
+	"tags": [
+		"country",
+		"generic",
+		"geo"
+	],
+	"whoisServer": "whois.nic.io",
+	"nameServers": [
+		"b.nic.ac",
+		"a.nic.io",
+		"b.nic.io",
+		"ns1.communitydns.net",
+		"a.ns13.net",
+		"b.ns13.net",
+		"ns3.icb.co.uk"
+	]
+}

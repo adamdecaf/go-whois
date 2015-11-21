@@ -1,0 +1,16 @@
+{
+	"domain": "gu",
+	"infoURL": "http://gadao.gov.gu",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"whoisURL": "http://gadao.gov.gu/domainsearch.htm",
+	"nameServers": [
+		"ns.gu",
+		"ns.edu.gu",
+		"nsuog.edu.gu",
+		"gu.cctld.authdns.ripe.net"
+	],
+	"codePoints": "--09az"
+}

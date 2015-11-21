@@ -1,0 +1,10 @@
+{
+	"domain": "mil.tm",
+	"tags": [
+		"retired"
+	],
+	"nameServers": [
+		"ns04.telecom.tm",
+		"web2.telecom.tm"
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"domain": "online",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
+	"whoisServer": "whois.centralnic.com",
+	"nameServers": [
+		"a.nic.online",
+		"b.nic.online",
+		"c.nic.online",
+		"d.nic.online"
+	],
+	"codePoints": "--09az"
+}

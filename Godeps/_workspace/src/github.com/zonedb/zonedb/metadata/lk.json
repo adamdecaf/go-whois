@@ -1,0 +1,20 @@
+{
+	"domain": "lk",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"whoisServer": "whois.nic.lk",
+	"nameServers": [
+		"ns1.ac.lk",
+		"c.nic.lk",
+		"d.nic.lk",
+		"l.nic.lk",
+		"m.nic.lk",
+		"p.nic.lk",
+		"ripe.nic.lk",
+		"t.nic.lk",
+		"pendragon.cs.purdue.edu"
+	],
+	"codePoints": "--09az"
+}

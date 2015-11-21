@@ -1,0 +1,16 @@
+{
+	"domain": "icbc",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand",
+		"generic"
+	],
+	"whoisServer": "whois.afilias-srs.net",
+	"nameServers": [
+		"a0.nic.icbc",
+		"a2.nic.icbc",
+		"b0.nic.icbc",
+		"c0.nic.icbc"
+	],
+	"codePoints": "--09az"
+}

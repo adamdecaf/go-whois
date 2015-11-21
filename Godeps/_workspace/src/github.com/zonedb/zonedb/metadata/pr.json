@@ -1,0 +1,16 @@
+{
+	"domain": "pr",
+	"infoURL": "http://www.nic.pr/",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"whoisServer": "whois.nic.pr",
+	"nameServers": [
+		"pr-dns.denic.de",
+		"descartes.nic.pr",
+		"golomb.nic.pr",
+		"pascal.nic.pr",
+		"pr-ns.anycast.pch.net"
+	]
+}

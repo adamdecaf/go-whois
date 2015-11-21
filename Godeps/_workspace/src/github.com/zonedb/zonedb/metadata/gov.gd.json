@@ -1,0 +1,12 @@
+{
+	"domain": "gov.gd",
+	"nameServers": [
+		"ns25.domaincontrol.com",
+		"ns26.domaincontrol.com",
+		"ns61.domaincontrol.com",
+		"ns62.domaincontrol.com",
+		"ns73.domaincontrol.com",
+		"ns74.domaincontrol.com"
+	],
+	"codePoints": "--09az"
+}

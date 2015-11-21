@@ -1,0 +1,17 @@
+{
+	"domain": "durban",
+	"tags": [
+		"city",
+		"generic",
+		"geo"
+	],
+	"locations": [
+		"Durban"
+	],
+	"whoisServer": "durban-whois.registry.net.za",
+	"nameServers": [
+		"coza1.dnsnode.net",
+		"ns.coza.net.za",
+		"ns1.coza.net.za"
+	]
+}

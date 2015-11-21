@@ -1,0 +1,15 @@
+{
+	"domain": "law",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
+	"whoisServer": "whois-dub.mm-registry.com",
+	"nameServers": [
+		"a.ns.nic.law",
+		"b.ns.nic.law",
+		"c.ns.nic.law",
+		"d.ns.nic.law"
+	],
+	"codePoints": "--09az"
+}

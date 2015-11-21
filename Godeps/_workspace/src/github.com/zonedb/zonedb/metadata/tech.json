@@ -1,0 +1,15 @@
+{
+	"domain": "tech",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
+	"whoisServer": "whois.nic.tech",
+	"nameServers": [
+		"a.nic.tech",
+		"b.nic.tech",
+		"c.nic.tech",
+		"d.nic.tech"
+	],
+	"codePoints": "--09az"
+}

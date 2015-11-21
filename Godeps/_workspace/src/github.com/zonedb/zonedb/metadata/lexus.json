@@ -1,0 +1,16 @@
+{
+	"domain": "lexus",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand",
+		"generic"
+	],
+	"whoisServer": "whois.nic.lexus",
+	"nameServers": [
+		"a.nic.lexus",
+		"b.nic.lexus",
+		"c.nic.lexus",
+		"d.nic.lexus"
+	],
+	"codePoints": "--09az"
+}

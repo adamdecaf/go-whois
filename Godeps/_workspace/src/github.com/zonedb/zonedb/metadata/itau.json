@@ -1,0 +1,17 @@
+{
+	"domain": "itau",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand",
+		"generic"
+	],
+	"nameServers": [
+		"ns1.dns.nic.itau",
+		"ns2.dns.nic.itau",
+		"ns3.dns.nic.itau",
+		"ns4.dns.nic.itau",
+		"ns5.dns.nic.itau",
+		"ns6.dns.nic.itau"
+	],
+	"codePoints": "--09az"
+}

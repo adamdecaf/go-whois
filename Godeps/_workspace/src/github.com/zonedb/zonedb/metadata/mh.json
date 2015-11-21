@@ -1,0 +1,13 @@
+{
+	"domain": "mh",
+	"tags": [
+		"closed",
+		"country",
+		"geo"
+	],
+	"nameServers": [
+		"ns.amarshallinc.com",
+		"ns.ntamar.net"
+	],
+	"codePoints": "--09az"
+}

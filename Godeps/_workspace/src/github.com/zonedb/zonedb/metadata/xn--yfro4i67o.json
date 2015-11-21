@@ -1,0 +1,13 @@
+{
+	"domain": "新加坡",
+	"tags": [
+		"generic"
+	],
+	"whoisServer": "whois.sgnic.sg",
+	"nameServers": [
+		"sec3.apnic.net",
+		"dsany.sgnic.sg",
+		"ns2.cuhk.edu.hk",
+		"sg-ns.anycast.pch.net"
+	]
+}

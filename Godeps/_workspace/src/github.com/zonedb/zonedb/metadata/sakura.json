@@ -1,0 +1,13 @@
+{
+	"domain": "sakura",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand",
+		"generic"
+	],
+	"nameServers": [
+		"tld1.nic.sakura",
+		"tld2.nic.sakura"
+	],
+	"codePoints": "--09az"
+}

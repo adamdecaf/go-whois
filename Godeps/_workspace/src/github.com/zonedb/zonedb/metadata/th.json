@@ -1,0 +1,19 @@
+{
+	"domain": "th",
+	"infoURL": "http://www.thnic.co.th/",
+	"tags": [
+		"closed",
+		"country",
+		"geo"
+	],
+	"whoisServer": "whois.thnic.co.th",
+	"nameServers": [
+		"ns.thnic.net",
+		"ams.sns-pb.isc.org",
+		"sfba.sns-pb.isc.org",
+		"dns1.thnic.co.th",
+		"ns-a.thnic.co.th",
+		"ns-e.thnic.co.th",
+		"th.cctld.authdns.ripe.net"
+	]
+}

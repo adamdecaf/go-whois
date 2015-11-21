@@ -1,0 +1,16 @@
+{
+	"domain": "commbank",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand",
+		"generic"
+	],
+	"whoisServer": "whois.nic.commbank",
+	"nameServers": [
+		"a.nic.commbank",
+		"b.nic.commbank",
+		"c.nic.commbank",
+		"d.nic.commbank"
+	],
+	"codePoints": "--09az"
+}

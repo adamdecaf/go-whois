@@ -1,0 +1,17 @@
+{
+	"domain": "gt",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"whoisURL": "http://www.gt/whois.html",
+	"nameServers": [
+		"pch.gt",
+		"ns.dns.br",
+		"ns3.nic.mx",
+		"osi2.gua.net",
+		"sns-pb.isc.org",
+		"ns.uvg.edu.gt"
+	],
+	"codePoints": "--09az"
+}

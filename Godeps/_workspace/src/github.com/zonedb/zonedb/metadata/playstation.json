@@ -1,0 +1,16 @@
+{
+	"domain": "playstation",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand",
+		"generic"
+	],
+	"whoisServer": "whois.nic.playstation",
+	"nameServers": [
+		"a.nic.playstation",
+		"b.nic.playstation",
+		"c.nic.playstation",
+		"d.nic.playstation"
+	],
+	"codePoints": "--09az"
+}

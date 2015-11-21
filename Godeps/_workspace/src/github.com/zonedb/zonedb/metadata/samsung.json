@@ -1,0 +1,18 @@
+{
+	"domain": "samsung",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"brand",
+		"generic"
+	],
+	"whoisServer": "whois.nic.samsung",
+	"nameServers": [
+		"b.dns.kr",
+		"c.dns.kr",
+		"d.dns.kr",
+		"e.dns.kr",
+		"f.dns.kr",
+		"g.dns.kr"
+	],
+	"codePoints": "--09az"
+}

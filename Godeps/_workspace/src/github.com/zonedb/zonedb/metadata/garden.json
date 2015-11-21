@@ -1,0 +1,15 @@
+{
+	"domain": "garden",
+	"infoURL": "http://newgtlds.icann.org/",
+	"tags": [
+		"generic"
+	],
+	"whoisServer": "whois-dub.mm-registry.com",
+	"nameServers": [
+		"a.ns.nic.garden",
+		"b.ns.nic.garden",
+		"c.ns.nic.garden",
+		"d.ns.nic.garden"
+	],
+	"codePoints": "--09az"
+}

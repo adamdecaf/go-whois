@@ -1,0 +1,16 @@
+{
+	"domain": "ug",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"whoisServer": "whois.co.ug",
+	"nameServers": [
+		"ns-ug.afrinic.net",
+		"ns.icann.org",
+		"anycast.eahd.or.ug",
+		"root.eahd.or.ug",
+		"ug.cctld.authdns.ripe.net"
+	],
+	"codePoints": "--09az"
+}

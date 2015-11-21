@@ -1,0 +1,11 @@
+{
+	"domain": "vodka",
+	"tags": [
+		"generic"
+	],
+	"whoisServer": "whois-dub.mm-registry.com",
+	"nameServers": [
+		"a.ns.nic.vodka",
+		"b.ns.nic.vodka"
+	]
+}

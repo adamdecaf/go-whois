@@ -1,0 +1,16 @@
+{
+	"domain": "ph",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"whoisURL": "http://www.dot.ph/whois",
+	"nameServers": [
+		"sec4.apnic.net",
+		"ph.communitydns.net",
+		"sns-pb.isc.org",
+		"ns2.cuhk.edu.hk",
+		"ph.cctld.authdns.ripe.net"
+	],
+	"codePoints": "--09az"
+}

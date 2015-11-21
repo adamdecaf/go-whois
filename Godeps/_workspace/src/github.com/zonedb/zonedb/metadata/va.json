@@ -1,0 +1,17 @@
+{
+	"domain": "va",
+	"tags": [
+		"country",
+		"geo"
+	],
+	"whoisServer": "whois.iana.org",
+	"nameServers": [
+		"osiris.namex.it",
+		"seth.namex.it",
+		"dns.nic.it",
+		"john.vatican.va",
+		"michael.vatican.va",
+		"va.cctld.authdns.ripe.net"
+	],
+	"codePoints": "--09az"
+}
