@@ -13,10 +13,24 @@ func TestSuccessfulWhoisLookup(t *testing.T) {
 		t.Errorf("error when finding whois server = %s", err)
 	}
 
-	fmt.Printf("resp = %s\n", resp)
-
 	if !strings.Contains(resp, "Whois Server Version 2.0") {
 		t.Errorf("unable to validate whois response")
+	}
+}
+
+func TestNonCOMWhois(t *testing.T) {
+	resp, err := WhoisQuery("ashannon.us")
+
+	if err != nil {
+		t.Errorf("error getting whois lookup = %s", err)
+	}
+
+	if strings.Contains(resp, "Not found") {
+		t.Errorf("error getting whois for ashannon.us")
+	}
+
+	if !strings.Contains(resp, "Adam Shannon") {
+		t.Errorf("unable to properly get whois for ashannon.us, resp = %s", resp)
 	}
 }
 

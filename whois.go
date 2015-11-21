@@ -26,7 +26,7 @@ func WhoisQuery(domain string) (string, error) {
 		return "", err
 	}
 
-	payload := "=" + domain + "\r\n"
+	payload := domain + "\r\n"
 	conn.Write([]byte(payload))
 
 	buffer, err := ioutil.ReadAll(conn)
