@@ -2,7 +2,7 @@
 
 > A simple whois client
 
-![](https://api.travis-ci.org/adamdecaf/go-whois.svg)
+![](https://travis-ci.org/adamdecaf/go-whois.svg?branch=master)
 
 ## Usage
 
