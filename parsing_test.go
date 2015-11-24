@@ -2,17 +2,18 @@ package whois
 
 import (
 	"fmt"
+	"io/ioutil"
 	"testing"
 )
 
 func TestWhoisParserUS(t *testing.T) {
-	resp, err := WhoisQuery("ashannon.us")
+	resp, err := ioutil.ReadFile("test/ashannon.us")
 
 	if err != nil {
 		t.Errorf("error getting whois query response = %s", err)
 	}
 
-	parsed, err := ParseWhoisResponse(resp)
+	parsed, err := ParseWhoisResponse(string(resp))
 
 	if err != nil {
 		t.Errorf("error parsing whois response = %s", err)
@@ -28,8 +29,16 @@ func TestWhoisParserUS(t *testing.T) {
 	}
 
 	fmt.Printf("CreatedAt = %s\n", parsed.CreatedAt)
+	created_at_str := parsed.CreatedAt.String()
+	if created_at_str != "2008-12-21 20:11:01 +0000 GMT" {
+		t.Errorf("created at times don't match (actual = %s)", created_at_str)
+	}
 
 	fmt.Printf("ExpiresAt = %s\n", parsed.ExpiresAt)
+	expires_at_str := parsed.ExpiresAt.String()
+	if expires_at_str != "2016-12-20 23:59:59 +0000 GMT" {
+		t.Errorf("expires at times don't match (actual = %s)", expires_at_str)
+	}
 
 	fmt.Printf("Registrar = %s\n", parsed.Registrar)
 
