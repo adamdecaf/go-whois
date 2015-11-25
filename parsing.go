@@ -5,7 +5,6 @@ import (
 	"time"
 	"net/url"
 	"regexp"
-	"strings"
 )
 
 type WhoisRecord struct {
@@ -32,82 +31,54 @@ func ParseWhoisResponse(resp string) (WhoisRecord, error) {
 
 	last_updated_at, err := find_last_updated_at(resp)
 	if err == nil {
-		// From standard: 'Mon Jan 2 15:04:05 MST 2006'
-		// incoming: Fri Nov 20 07:42:26 GMT 2015
-		t, err := time.Parse("Mon Jan 2 15:04:05 MST 2006", last_updated_at)
-		if err == nil {
-			rp.LastUpdatedAt = t
-		}
+		rp.LastUpdatedAt = last_updated_at
 	}
 
 	created_at, err := find_created_at(resp)
-
 	if err == nil {
-		t, err := time.Parse("Mon Jan 2 15:04:05 MST 2006", created_at)
-		if err == nil {
-			rp.CreatedAt = t
-		}
+		rp.CreatedAt = created_at
 	}
 
 	expires_at, err := find_expires_at(resp)
-
 	if err == nil {
-		t, err := time.Parse("Mon Jan 2 15:04:05 MST 2006", expires_at)
-		if err == nil {
-			rp.ExpiresAt = t
-		}
+		rp.ExpiresAt = expires_at
 	}
 
 	return record, nil
 }
 
-func find_last_updated_at(resp string) (string, error) {
-	r, err := regexp.Compile(`(?im)Updated Date: \s+(.+)$`)
-
-	if err != nil {
-		return "", err
+func find_last_updated_at(resp string) (time.Time, error) {
+	patterns_and_formats := map[*regexp.Regexp]string{
+		regexp.MustCompile(`(?im)Updated Date: \s+(.+)$`): "Mon Jan 2 15:04:05 MST 2006",
 	}
-
-	return find_date_time(resp, r, "Updated Date")
+	return find_date_time(resp, patterns_and_formats, "LastUpdatedAt")
 }
 
-func find_created_at(resp string) (string, error) {
-	r, err := regexp.Compile(`(?im)Registration Date: \s+(.+)$`)
-
-	if err != nil {
-		return "", err
+func find_created_at(resp string) (time.Time, error) {
+	patterns_and_formats := map[*regexp.Regexp]string{
+		regexp.MustCompile(`(?im)Registration Date: \s+(.+)$`): "Mon Jan 2 15:04:05 MST 2006",
 	}
-
-	return find_date_time(resp, r, "Registration Date")
+	return find_date_time(resp, patterns_and_formats, "CreatedAt")
 }
 
-func find_expires_at(resp string) (string, error) {
-	r, err := regexp.Compile(`(?im)Expiration Date: \s+(.+)$`)
-
-	if err != nil {
-		return "", err
+func find_expires_at(resp string) (time.Time, error) {
+	patterns_and_formats := map[*regexp.Regexp]string{
+		regexp.MustCompile(`(?im)Expiration Date: \s+(.+)$`): "Mon Jan 2 15:04:05 MST 2006",
 	}
-
-	return find_date_time(resp, r, "Expiration Date")
+	return find_date_time(resp, patterns_and_formats, "ExpiresAt")
 }
 
-func find_date_time(resp string, r *regexp.Regexp, key string) (string, error) {
-	loc := r.FindStringIndex(resp)
+func find_date_time(resp string, patterns_and_formats map[*regexp.Regexp]string, key string) (time.Time, error) {
+	for r, format := range patterns_and_formats {
+		res := r.FindStringSubmatch(resp)
 
-	if len(loc) != 2 {
-		return "", fmt.Errorf("error getting location of match")
+		// Grab the first match
+		if len(res) > 1 {
+			t, err := time.Parse(format, res[1])
+			if err == nil {
+				return t, nil
+			}
+		}
 	}
-
-	old := resp[loc[0]:loc[1]]
-	// fmt.Printf("old = '%s'\n", old)
-
-	match := strings.TrimSpace(strings.Replace(old, key + ":", "", -1))
-
-	// fmt.Printf("match = '%s'\n", match)
-
-	if match == "" {
-		return "", fmt.Errorf("no matches found for '%s' record", key)
-	}
-
-	return match, nil
+	return time.Now(), fmt.Errorf("unable to find patern for %s", key)
 }
