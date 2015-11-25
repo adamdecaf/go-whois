@@ -8,8 +8,6 @@ import (
 )
 
 type WhoisRecord struct {
-	Domain string
-
 	// times
 	LastUpdatedAt time.Time
 	CreatedAt time.Time
