@@ -49,6 +49,7 @@ func find_last_updated_at(resp string) (time.Time, error) {
 	patterns_and_formats := map[*regexp.Regexp]string{
 		regexp.MustCompile(`(?im)Last Updated Date: \s+(.+)$`): "Mon Jan 2 15:04:05 MST 2006",
 		regexp.MustCompile(`(?im)Updated Date:\s+(.+)$`): "02-Jan-2006",
+		regexp.MustCompile(`(?im)Updated Date:\s+(.+)$`): "2006-01-02T15:04:05Z",
 	}
 	return find_date_time(resp, patterns_and_formats, "LastUpdatedAt")
 }
@@ -57,6 +58,7 @@ func find_created_at(resp string) (time.Time, error) {
 	patterns_and_formats := map[*regexp.Regexp]string{
 		regexp.MustCompile(`(?im)Registration Date: \s+(.+)$`): "Mon Jan 2 15:04:05 MST 2006",
 		regexp.MustCompile(`(?im)Creation Date:\s+(.+)$`): "02-Jan-2006",
+		regexp.MustCompile(`(?im)Creation Date:\s+(.+)$`): "2006-01-02T15:04:05Z",
 	}
 	return find_date_time(resp, patterns_and_formats, "CreatedAt")
 }
@@ -65,6 +67,7 @@ func find_expires_at(resp string) (time.Time, error) {
 	patterns_and_formats := map[*regexp.Regexp]string{
 		regexp.MustCompile(`(?im)Domain Expiration Date: \s+(.+)$`): "Mon Jan 2 15:04:05 MST 2006",
 		regexp.MustCompile(`(?im)Expiration Date:\s+(.+)$`): "02-Jan-2006",
+		regexp.MustCompile(`(?im)Registry Expiry Date:\s+(.+)$`): "2006-01-02T15:04:05Z",
 	}
 	return find_date_time(resp, patterns_and_formats, "ExpiresAt")
 }

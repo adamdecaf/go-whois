@@ -42,6 +42,15 @@ func TestWhoisParserCOM(t *testing.T) {
 	VerifyParsedResposne("decafproductions.com", answer, t)
 }
 
+func TestWhoisParserXOrg(t *testing.T) {
+	answer := ParsedAnswer{
+		LastUpdatedAt: "2007-01-12 21:42:24 +0000 UTC",
+		CreatedAt: "1997-01-18 05:00:00 +0000 UTC",
+		ExpiresAt: "2016-01-19 05:00:00 +0000 UTC",
+	}
+	VerifyParsedResposne("x.org", answer, t)
+}
+
 func VerifyParsedResposne(domain string, answer ParsedAnswer, t *testing.T) {
 	resp, err := ioutil.ReadFile("test/" + domain)
 
