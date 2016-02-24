@@ -53,5 +53,5 @@ func TestFailingWhoisLookup(t *testing.T) {
 		t.Errorf("we should have failed this whois lookup, but got %s", resp)
 	}
 
-	fmt.Printf("found expected error = %s", err)
+	fmt.Printf("found expected error = %s\n", err)
 }
