@@ -2,6 +2,7 @@ package whois
 
 import (
 	"io/ioutil"
+	"reflect"
 	"testing"
 )
 
@@ -22,6 +23,10 @@ type ParsedAnswer struct {
 	LastUpdatedAt string
 	CreatedAt string
 	ExpiresAt string
+
+	// contact points
+	Registrar string
+	ContactEmails []string
 }
 
 func TestWhoisParserUS(t *testing.T) {
@@ -29,6 +34,8 @@ func TestWhoisParserUS(t *testing.T) {
 		LastUpdatedAt: "2015-11-20 07:42:26 +0000 GMT",
 		CreatedAt: "2008-12-21 20:11:01 +0000 GMT",
 		ExpiresAt: "2016-12-20 23:59:59 +0000 GMT",
+		Registrar: "Adam Shannon",
+		ContactEmails: []string{"ashannon1000@gmail.com"},
 	}
 	VerifyParsedResposne("ashannon.us", answer, t)
 }
@@ -47,6 +54,8 @@ func TestWhoisParserXOrg(t *testing.T) {
 		LastUpdatedAt: "2007-01-12 21:42:24 +0000 UTC",
 		CreatedAt: "1997-01-18 05:00:00 +0000 UTC",
 		ExpiresAt: "2016-01-19 05:00:00 +0000 UTC",
+		Registrar: "X.ORG Foundation, LLC",
+		ContactEmails: []string{"leon@shiman.com"},
 	}
 	VerifyParsedResposne("x.org", answer, t)
 }
@@ -77,6 +86,16 @@ func VerifyParsedResposne(domain string, answer ParsedAnswer, t *testing.T) {
 	expires_at_str := parsed.ExpiresAt.String()
 	if expires_at_str != answer.ExpiresAt {
 		t.Errorf("expires at times don't match (actual = %s)", expires_at_str)
+	}
+
+	registrar_str := parsed.Registrar
+	if registrar_str != answer.Registrar {
+		t.Errorf("registrar doesn't match (actual = %s)", registrar_str)
+	}
+
+	contact_emails := parsed.ContactEmails
+	if !reflect.DeepEqual(contact_emails, answer.ContactEmails) {
+		t.Errorf("contact emails don't match (actual = %s)", contact_emails)
 	}
 
 	// fmt.Printf("Registrar = %s\n", parsed.Registrar)

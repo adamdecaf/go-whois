@@ -2,9 +2,10 @@ package whois
 
 import (
 	"fmt"
-	"time"
 	"net/url"
 	"regexp"
+	"strings"
+	"time"
 )
 
 type WhoisRecord struct {
@@ -42,7 +43,39 @@ func ParseWhoisResponse(resp string) (WhoisRecord, error) {
 		rp.ExpiresAt = expires_at
 	}
 
+	registar_name, err := find_registar_name(resp)
+	if err == nil {
+		rp.Registrar = registar_name
+	}
+
+	registar_email, err := find_registar_email(resp)
+	if err == nil {
+		rp.ContactEmails = []string{registar_email}
+	}
+
 	return record, nil
+}
+
+func find_registar_name(blob string) (string, error) {
+	r := regexp.MustCompile(`(?im)Registrant Name: (.+)$`)
+	res := r.FindStringSubmatch(blob)
+
+	if len(res) > 1 {
+		return strings.TrimSpace(res[1]), nil
+	}
+
+	return "", fmt.Errorf("Unable to find registar name")
+}
+
+func find_registar_email(blob string) (string, error) {
+	r := regexp.MustCompile(`(?im)Registrant Email: (.+)$`)
+	res := r.FindStringSubmatch(blob)
+
+	if len(res) > 1 {
+		return strings.TrimSpace(res[1]), nil
+	}
+
+	return "", fmt.Errorf("Unable to find registar email")
 }
 
 func find_last_updated_at(resp string) (time.Time, error) {
