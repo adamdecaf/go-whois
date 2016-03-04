@@ -1,4 +1,4 @@
-package whois
+package parsing
 
 import (
 	"fmt"

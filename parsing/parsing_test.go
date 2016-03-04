@@ -1,4 +1,4 @@
-package whois
+package parsing
 
 import (
 	"io/ioutil"
