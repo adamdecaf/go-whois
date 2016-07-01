@@ -118,7 +118,7 @@ func find_date_time(resp string, patterns_and_formats map[*regexp.Regexp]string,
 
 		// Grab the first match
 		if len(res) > 1 {
-			t, err := time.Parse(format, res[1])
+			t, err := time.Parse(format, strings.TrimSpace(res[1]))
 			if err == nil {
 				return t, nil
 			}
