@@ -45,6 +45,7 @@ func TestWhoisParserCOM(t *testing.T) {
 		LastUpdatedAt: "2015-11-13 00:00:00 +0000 UTC",
 		CreatedAt: "2012-12-13 00:00:00 +0000 UTC",
 		ExpiresAt: "2016-12-13 00:00:00 +0000 UTC",
+		Registrar: "ENOM, INC.",
 	}
 	VerifyParsedResposne("decafproductions.com", answer, t)
 }

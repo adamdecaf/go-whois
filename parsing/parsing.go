@@ -59,6 +59,7 @@ func ParseWhoisResponse(resp string) (WhoisRecord, error) {
 func find_registar_name(blob string) (string, error) {
 	patterns_and_formats := []*regexp.Regexp{
 		regexp.MustCompile(`(?im)Registrant Name: (.+)$`),
+		regexp.MustCompile(`(?im)Registrar Handle:(.+)$`),
 		regexp.MustCompile(`(?im)Registrar:(.+)$`),
 	}
 	return find_string(blob, patterns_and_formats, "ContactEmails")
