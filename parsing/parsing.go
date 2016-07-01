@@ -57,25 +57,28 @@ func ParseWhoisResponse(resp string) (WhoisRecord, error) {
 }
 
 func find_registar_name(blob string) (string, error) {
-	r := regexp.MustCompile(`(?im)Registrant Name: (.+)$`)
-	res := r.FindStringSubmatch(blob)
-
-	if len(res) > 1 {
-		return strings.TrimSpace(res[1]), nil
+	patterns_and_formats := []*regexp.Regexp{
+		regexp.MustCompile(`(?im)Registrant Name: (.+)$`),
 	}
-
-	return "", fmt.Errorf("Unable to find registar name")
+	return find_string(blob, patterns_and_formats, "ContactEmails")
 }
 
 func find_registar_email(blob string) (string, error) {
-	r := regexp.MustCompile(`(?im)Registrant Email: (.+)$`)
-	res := r.FindStringSubmatch(blob)
-
-	if len(res) > 1 {
-		return strings.TrimSpace(res[1]), nil
+	patterns_and_formats := []*regexp.Regexp{
+		regexp.MustCompile(`(?im)Registrant Email: (.+)$`),
 	}
+	return find_string(blob, patterns_and_formats, "ContactEmails")
+}
 
-	return "", fmt.Errorf("Unable to find registar email")
+func find_string(resp string, patterns []*regexp.Regexp, key string) (string, error) {
+	for p := range patterns {
+		res := patterns[p].FindStringSubmatch(resp)
+		// Grab the first match
+		if len(res) > 1 {
+			return strings.TrimSpace(res[1]), nil
+		}
+	}
+	return "", fmt.Errorf("unable to find patern for %s", key)
 }
 
 func find_last_updated_at(resp string) (time.Time, error) {
