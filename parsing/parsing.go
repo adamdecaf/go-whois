@@ -59,6 +59,7 @@ func ParseWhoisResponse(resp string) (WhoisRecord, error) {
 func find_registar_name(blob string) (string, error) {
 	patterns_and_formats := []*regexp.Regexp{
 		regexp.MustCompile(`(?im)Registrant Name: (.+)$`),
+		regexp.MustCompile(`(?im)Registrar:(.+)$`),
 	}
 	return find_string(blob, patterns_and_formats, "ContactEmails")
 }
@@ -84,6 +85,7 @@ func find_string(resp string, patterns []*regexp.Regexp, key string) (string, er
 func find_last_updated_at(resp string) (time.Time, error) {
 	patterns_and_formats := map[*regexp.Regexp]string{
 		regexp.MustCompile(`(?im)Last Updated Date: \s+(.+)$`): "Mon Jan 2 15:04:05 MST 2006",
+		regexp.MustCompile(`(?im)Last updated:(.+)$`): "2006-01-02",
 		regexp.MustCompile(`(?im)Updated Date:\s+(.+)$`): "02-Jan-2006",
 		regexp.MustCompile(`(?im)Updated Date:\s+(.+)$`): "2006-01-02T15:04:05Z",
 	}
@@ -95,6 +97,7 @@ func find_created_at(resp string) (time.Time, error) {
 		regexp.MustCompile(`(?im)Registration Date: \s+(.+)$`): "Mon Jan 2 15:04:05 MST 2006",
 		regexp.MustCompile(`(?im)Creation Date:\s+(.+)$`): "02-Jan-2006",
 		regexp.MustCompile(`(?im)Creation Date:\s+(.+)$`): "2006-01-02T15:04:05Z",
+		regexp.MustCompile(`(?im)Created: \s+(.+)$`): "2006-01-02",
 	}
 	return find_date_time(resp, patterns_and_formats, "CreatedAt")
 }

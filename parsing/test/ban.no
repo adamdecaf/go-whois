@@ -1,0 +1,34 @@
+% Kopibeskyttet, se http://www.norid.no/domenenavnbaser/whois/kopirett.html
+% Rights restricted by copyright. See http://www.norid.no/domenenavnbaser/whois/kopirett.en.html
+
+Domain Information
+
+NORID Handle...............: BAN1639D-NORID
+Domain Name................: ban.no
+Domain Holder Handle.......: TA6503O-NORID
+Registrar Handle...........: REG871-NORID
+Legal-c Handle.............: TH12013P-NORID
+Tech-c Handle..............: FH21R-NORID
+Name Server Handle.........: NSPA314H-NORID
+Name Server Handle.........: NSPA315H-NORID
+
+Additional information:
+Created:         2014-09-04
+Last updated:    2015-09-04
+
+NORID Handle...............: TA6503O-NORID
+Type.......................: organization
+Name.......................: TAC AS
+Id Type....................: organization_number
+Id Number..................: 912226352
+Registrar Handle...........: REG871-NORID
+Post Address...............: Fureneset
+Postal Code................: NO-6967
+Postal Area................: HELLEVIK I FJALER
+Country....................: NO
+Phone Number...............: +47.57737500
+Email Address..............: post@tac.no
+
+Additional information:
+Created:         2013-07-22
+Last updated:    2014-09-11
