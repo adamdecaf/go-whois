@@ -1,0 +1,15 @@
+{
+	"ImportPath": "github.com/adamdecaf/go-whois",
+	"GoVersion": "go1.7",
+	"GodepVersion": "v75",
+	"Deps": [
+		{
+			"ImportPath": "github.com/zonedb/zonedb",
+			"Rev": "8276b0aba1af629ca17da964a17b1e400e509e6c"
+		},
+		{
+			"ImportPath": "golang.org/x/net/idna",
+			"Rev": "e31bd588d1077ee66a958c0ad3a235f2084b4195"
+		}
+	]
+}
