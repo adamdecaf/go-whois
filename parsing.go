@@ -28,27 +28,27 @@ func ParseWhoisResponse(resp string) (WhoisRecord, error) {
 	record := WhoisRecord{}
 	rp := &record
 
-	last_updated_at, err := find_last_updated_at(resp)
+	last_updated_at, err := findLastUpdatedAt(resp)
 	if err == nil {
 		rp.LastUpdatedAt = last_updated_at
 	}
 
-	created_at, err := find_created_at(resp)
+	created_at, err := findCreatedAt(resp)
 	if err == nil {
 		rp.CreatedAt = created_at
 	}
 
-	expires_at, err := find_expires_at(resp)
+	expires_at, err := findExpiresAt(resp)
 	if err == nil {
 		rp.ExpiresAt = expires_at
 	}
 
-	registar_name, err := find_registar_name(resp)
+	registar_name, err := findRegisterName(resp)
 	if err == nil {
 		rp.Registrar = registar_name
 	}
 
-	registar_email, err := find_registar_email(resp)
+	registar_email, err := findRegisterEmail(resp)
 	if err == nil {
 		rp.ContactEmails = []string{registar_email}
 	}
@@ -56,23 +56,23 @@ func ParseWhoisResponse(resp string) (WhoisRecord, error) {
 	return record, nil
 }
 
-func find_registar_name(blob string) (string, error) {
+func findRegisterName(blob string) (string, error) {
 	patterns_and_formats := []*regexp.Regexp{
 		regexp.MustCompile(`(?im)Registrant Name: (.+)$`),
 		regexp.MustCompile(`(?im)Registrar Handle:(.+)$`),
 		regexp.MustCompile(`(?im)Registrar:(.+)$`),
 	}
-	return find_string(blob, patterns_and_formats, "ContactEmails")
+	return findString(blob, patterns_and_formats, "ContactEmails")
 }
 
-func find_registar_email(blob string) (string, error) {
+func findRegisterEmail(blob string) (string, error) {
 	patterns_and_formats := []*regexp.Regexp{
 		regexp.MustCompile(`(?im)Registrant Email: (.+)$`),
 	}
-	return find_string(blob, patterns_and_formats, "ContactEmails")
+	return findString(blob, patterns_and_formats, "ContactEmails")
 }
 
-func find_string(resp string, patterns []*regexp.Regexp, key string) (string, error) {
+func findString(resp string, patterns []*regexp.Regexp, key string) (string, error) {
 	for p := range patterns {
 		res := patterns[p].FindStringSubmatch(resp)
 		// Grab the first match
@@ -83,36 +83,36 @@ func find_string(resp string, patterns []*regexp.Regexp, key string) (string, er
 	return "", fmt.Errorf("unable to find patern for %s", key)
 }
 
-func find_last_updated_at(resp string) (time.Time, error) {
+func findLastUpdatedAt(resp string) (time.Time, error) {
 	patterns_and_formats := map[*regexp.Regexp]string{
 		regexp.MustCompile(`(?im)Last Updated Date: \s+(.+)$`): "Mon Jan 2 15:04:05 MST 2006",
 		regexp.MustCompile(`(?im)Last updated:(.+)$`): "2006-01-02",
 		regexp.MustCompile(`(?im)Updated Date:\s+(.+)$`): "02-Jan-2006",
 		regexp.MustCompile(`(?im)Updated Date:\s+(.+)$`): "2006-01-02T15:04:05Z",
 	}
-	return find_date_time(resp, patterns_and_formats, "LastUpdatedAt")
+	return findDateTime(resp, patterns_and_formats, "LastUpdatedAt")
 }
 
-func find_created_at(resp string) (time.Time, error) {
+func findCreatedAt(resp string) (time.Time, error) {
 	patterns_and_formats := map[*regexp.Regexp]string{
 		regexp.MustCompile(`(?im)Registration Date: \s+(.+)$`): "Mon Jan 2 15:04:05 MST 2006",
 		regexp.MustCompile(`(?im)Creation Date:\s+(.+)$`): "02-Jan-2006",
 		regexp.MustCompile(`(?im)Creation Date:\s+(.+)$`): "2006-01-02T15:04:05Z",
 		regexp.MustCompile(`(?im)Created: \s+(.+)$`): "2006-01-02",
 	}
-	return find_date_time(resp, patterns_and_formats, "CreatedAt")
+	return findDateTime(resp, patterns_and_formats, "CreatedAt")
 }
 
-func find_expires_at(resp string) (time.Time, error) {
+func findExpiresAt(resp string) (time.Time, error) {
 	patterns_and_formats := map[*regexp.Regexp]string{
 		regexp.MustCompile(`(?im)Domain Expiration Date: \s+(.+)$`): "Mon Jan 2 15:04:05 MST 2006",
 		regexp.MustCompile(`(?im)Expiration Date:\s+(.+)$`): "02-Jan-2006",
 		regexp.MustCompile(`(?im)Registry Expiry Date:\s+(.+)$`): "2006-01-02T15:04:05Z",
 	}
-	return find_date_time(resp, patterns_and_formats, "ExpiresAt")
+	return findDateTime(resp, patterns_and_formats, "ExpiresAt")
 }
 
-func find_date_time(resp string, patterns_and_formats map[*regexp.Regexp]string, key string) (time.Time, error) {
+func findDateTime(resp string, patterns_and_formats map[*regexp.Regexp]string, key string) (time.Time, error) {
 	for r, format := range patterns_and_formats {
 		res := r.FindStringSubmatch(resp)
 
