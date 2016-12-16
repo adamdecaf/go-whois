@@ -1,8 +1,0 @@
-{
-	"domain": "fed.us",
-	"nameServers": [
-		"a.gov-servers.net",
-		"b.gov-servers.net"
-	],
-	"codePoints": "--09az"
-}

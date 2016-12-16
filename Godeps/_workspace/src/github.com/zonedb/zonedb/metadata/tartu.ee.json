@@ -1,8 +1,0 @@
-{
-	"domain": "tartu.ee",
-	"nameServers": [
-		"ns.eenet.ee",
-		"ns2.eenet.ee"
-	],
-	"codePoints": "--09az"
-}

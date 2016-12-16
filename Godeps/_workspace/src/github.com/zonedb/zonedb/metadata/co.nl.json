@@ -1,9 +1,0 @@
-{
-	"domain": "co.nl",
-	"nameServers": [
-		"a.co.nl",
-		"b.co.nl",
-		"c.co.nl"
-	],
-	"codePoints": "--09az"
-}

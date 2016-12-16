@@ -1,9 +1,0 @@
-{
-	"domain": "gov.dz",
-	"nameServers": [
-		"ns1.nic.dz",
-		"ns2.nic.dz",
-		"casbah.eldjazair.net.dz"
-	],
-	"codePoints": "--09az"
-}

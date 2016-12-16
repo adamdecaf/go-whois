@@ -1,8 +1,0 @@
-{
-	"domain": "es.pn",
-	"nameServers": [
-		"dns1.espn.com",
-		"dns2.espn.com"
-	],
-	"codePoints": "--09az"
-}

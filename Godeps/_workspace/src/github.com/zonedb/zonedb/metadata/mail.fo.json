@@ -1,8 +1,0 @@
-{
-	"domain": "mail.fo",
-	"nameServers": [
-		"ns1.olivant.fo",
-		"ns2.olivant.fo"
-	],
-	"codePoints": "--09az"
-}

@@ -1,8 +1,0 @@
-{
-	"domain": "gov.ie",
-	"nameServers": [
-		"cwext.gn.gov.ie",
-		"gbext.gn.gov.ie"
-	],
-	"codePoints": "--09az"
-}

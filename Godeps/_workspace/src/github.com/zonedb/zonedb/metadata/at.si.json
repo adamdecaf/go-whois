@@ -1,8 +1,0 @@
-{
-	"domain": "at.si",
-	"nameServers": [
-		"jasico2.jasico.si",
-		"ns.jasico.si"
-	],
-	"codePoints": "--09az"
-}

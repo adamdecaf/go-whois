@@ -1,9 +1,0 @@
-{
-	"domain": "co.no",
-	"infoURL": "http://www.norid.no/index.en.html",
-	"nameServers": [
-		"a.co.no",
-		"b.co.no",
-		"c.co.no"
-	]
-}

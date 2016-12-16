@@ -1,9 +1,0 @@
-{
-	"domain": "iz.hr",
-	"nameServers": [
-		"dns-ez-1.carnet.hr",
-		"dns1.iz.hr",
-		"dns2.iz.hr"
-	],
-	"codePoints": "--09az"
-}

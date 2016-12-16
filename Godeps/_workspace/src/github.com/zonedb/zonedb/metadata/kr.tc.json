@@ -1,9 +1,0 @@
-{
-	"domain": "kr.tc",
-	"nameServers": [
-		"ns.udag.de",
-		"ns.udag.net",
-		"ns.udag.org"
-	],
-	"codePoints": "--09az"
-}

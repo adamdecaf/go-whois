@@ -1,8 +1,0 @@
-{
-	"domain": "edu.mv",
-	"nameServers": [
-		"ns.edu.mv",
-		"ns-cache01.dhivehinet.net.mv"
-	],
-	"codePoints": "--09az"
-}

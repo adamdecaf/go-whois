@@ -1,8 +1,0 @@
-{
-	"domain": "ok.ag",
-	"nameServers": [
-		"ns1.domainname.at",
-		"ns3.domainname.at",
-		"ns4.domainname.at"
-	]
-}

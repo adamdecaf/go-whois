@@ -1,8 +1,0 @@
-{
-	"domain": "org.ms",
-	"nameServers": [
-		"a.ms.dyntld.net",
-		"b.ms.dyntld.net"
-	],
-	"codePoints": "--09az"
-}

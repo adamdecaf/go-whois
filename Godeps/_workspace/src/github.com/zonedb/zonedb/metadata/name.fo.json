@@ -1,8 +1,0 @@
-{
-	"domain": "name.fo",
-	"nameServers": [
-		"ns1.gratisdns.dk",
-		"ns2.gratisdns.dk"
-	],
-	"codePoints": "--09az"
-}
