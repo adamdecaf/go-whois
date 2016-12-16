@@ -1,4 +1,4 @@
-package parsing
+package whois
 
 import (
 	"io/ioutil"
@@ -71,7 +71,7 @@ func TestWhoisParserNO(t *testing.T) {
 }
 
 func VerifyParsedResposne(domain string, answer ParsedAnswer, t *testing.T) {
-	resp, err := ioutil.ReadFile("test/" + domain)
+	resp, err := ioutil.ReadFile("testdata/" + domain)
 
 	if err != nil {
 		t.Errorf("error getting whois query response = %s", err)

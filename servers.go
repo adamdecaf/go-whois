@@ -2,7 +2,7 @@ package whois
 
 import (
 	"fmt"
-	"github.com/adamdecaf/go-whois/Godeps/_workspace/src/github.com/zonedb/zonedb"
+	"github.com/zonedb/zonedb"
 	"net/url"
 	"strings"
 )
